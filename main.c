@@ -6,7 +6,7 @@
 /*   By: mcastrat <mcastrat@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:20:21 by mcastrat          #+#    #+#             */
-/*   Updated: 2024/11/12 14:44:50 by mcastrat         ###   ########.fr       */
+/*   Updated: 2024/11/13 15:36:17 by mcastrat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,10 @@ int main()
 {
 	char *str;
 	int fd;
-	fd = open("test.txt", O_RDONLY);
-	str = get_next_line(fd);ls
+	fd = open("keke.txt", O_RDONLY);
+	str = get_next_line(fd);
 
-	while (str)
+	if (str)
 	{
 		printf("%s", str);
 		free(str);
